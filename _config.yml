@@ -1,0 +1,20 @@
+title: Th4my's Blog
+email: pirate.c47@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Let's Hack The World!!! <3
+baseurl: "" # the subpath of your site, e.g. /blog
+#domain: th4my.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: "https://th4my.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: xxx
+github_username: th4my
+
+# Build settings
+theme: minima
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
+
+plugins:
+  - jekyll-feed
+
+remote_theme: jekyll/minima
