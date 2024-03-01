@@ -23,13 +23,13 @@ Pré-requisitos para instalação do Jekyll:
 > $ bundle exec jekyll serve
 6. Acesse o seu site pela url: http://127.0.0.1:4000/
 
-* Se der algum erro do tipo 'bundler: failed to load command: jekyll', adicione o webrick: $ bundle add webrick (esse comando adiciona o webrick ao Gemfile) e depois: $ bundle install && bundle update
+* Se der algum erro do tipo 'bundler: failed to load command: jekyll', adicione o webrick: `$ bundle add webrick` (esse comando adiciona o webrick ao Gemfile) e depois: `$ bundle install && bundle update`.
 
 
 
 ### Instalando a skin dark do tema Minima do Jekyll:
-Eu estava procurando um tema escuro para o meu blog, mas reparei que vários temas estava desatualizados ou não faziam integração com o Github Pages. Então descobri que o tema Minima possui skins, mas atualmente ela ainda está em beta e ainda não foi lançado como uma versão estável.
-Então resolvi usar a versão beta mesmo no meu blog. Para isso eu copiei o diretório _sass do repositório do github e adicionei ao meu código. Depois editei o Gemfile comentando a linha gem "minima", "~> 2.5" para gem "minima". Editei o Gemfile de modo que ficou parecido com isso:
+Eu estava procurando um tema escuro para o meu blog, mas reparei que vários temas estava desatualizados ou não faziam integração com o Github Pages. Então descobri que o tema Minima possui skins, mas atualmente ela ainda está em beta e ainda não foi lançado como uma versão estável, estando disponível apenas via repositório e para isso é preciso usar o plugin `'jekyll-remote-theme'`. 
+Então resolvi usar a versão beta mesmo no meu blog. Para isso eu copiei o diretório `_sass` do repositório do github e adicionei ao meu código. Depois editei o `Gemfile` comentando a linha gem "minima", "~> 2.5" para gem "minima". Editei o Gemfile de modo que ficou parecido com isso:
 {% highlight ruby %}
 #gem "minima", "~> 2.5"
 gem "minima"
@@ -45,7 +45,7 @@ gem "webrick", "~> 1.8"
 
 
 
-Edite o arquivo _config.yml e adicione o seu skin favorito (auto, classic, dark, solarized-dark, solarized-light, solarized), no meu caso eu curto o dark:
+Edite o arquivo `_config.yml` e adicione o seu skin favorito (auto, classic, dark, solarized-dark, solarized-light, solarized) e adicione também o `remote_theme: jekyll/minima`:
 {% highlight ruby %}
 # Build settings
 theme: minima
