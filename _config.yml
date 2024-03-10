@@ -1,7 +1,7 @@
 title: Th4my's Blog
 email: pirate.c47@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Let's Hack The World!!! <3
+  [𝍖𝍖𝍖 𝚃𝚑𝟺𝚖𝚢'𝚜 𝙱𝚕𝚘𝚐 - 𝙲𝙲𝟶 - 𝟸𝟶𝟸𝟺 𝍖𝍖𝍖]
 baseurl: "" # the subpath of your site, e.g. /blog
 #domain: th4my.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: "https://th4my.github.io" # the base hostname & protocol for your site, e.g. http://example.com

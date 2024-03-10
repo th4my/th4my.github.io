@@ -66,7 +66,7 @@ Depois suba o projeto no Github:
 
 > $ git push
 
-É isso ai, é nois que voa bruxão!!! 
+É isso ai, let's hack the world!!! 
 
 ### Fontes:
 [jekyll-docs][jekyll-docs]

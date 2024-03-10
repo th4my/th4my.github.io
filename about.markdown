@@ -3,5 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Hello Everybody! I'm Tamy aka Th4my, a linux user and a fullstack developer from Brazil. 😉
+Olá, eu sou a Daniela Tamy! Desenvolvedora FullStack e estudante de Engenharia da Computação na Descomplica. Seja bem vindo(a) ao meu blog! 😉
